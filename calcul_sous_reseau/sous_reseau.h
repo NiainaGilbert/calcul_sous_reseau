@@ -1,0 +1,15 @@
+int *detect_reseau_bit(char *ip);
+int *detect_reseau_bit_inverse(char *ip);
+void exo1();
+int *binaire(char *ip);
+int *binaire_exo1(char *ip);
+int *bit_inverse(int *ip);
+int *addresse_reseau(int *masque, int *ip);
+int *addresse_broadcast(int *masque, int *ip);
+int number_of_pc(char *ip);
+int nbre_de_decoupe();
+void new_mask(char *ip);
+void print_bin(int *binary_ip);
+void print_dec(int *dec_ip);
+int *decimal(int *ip);
+void exo2();
